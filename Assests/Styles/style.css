@@ -41,3 +41,6 @@
   background: rgb(222,212,167);
   background: linear-gradient(90deg, rgba(222,212,167,1) 0%, rgba(0,0,0,1) 25%, rgba(245,234,184,1) 50%, rgba(12,12,9,1) 75%, rgba(255,244,192,1) 100%);
 }
+.cus-font{
+  font-family: 'Rampart One', cursive;
+}
