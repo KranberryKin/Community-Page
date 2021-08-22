@@ -1,0 +1,43 @@
+:root{
+  --color: #bff9ef;
+}
+ 
+@media only screen and (max-width: 765px){
+  .hide{
+    visibility: hidden;
+  }
+  .cus-size{
+    height: auto;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 765px){
+  .spill{
+    position:absolute;
+  }
+  .cus-size{
+    height: 20rem;
+    width: auto;
+  }
+
+  .cus-size-2{
+    height: 16rem;
+    width: auto;
+  }
+  
+}
+.hero-img{
+  background-image: url(https://dthezntil550i.cloudfront.net/wt/latest/wt1710300046314180003060280/1280_960/34ff00df-00cd-4f24-b40e-927f85ec7bea.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+.trn-box{
+  background-color: #ffffffb7;
+}
+.bg-header{
+  background-color: var(--color);
+}
+.bg-content{
+  background: rgb(222,212,167);
+  background: linear-gradient(90deg, rgba(222,212,167,1) 0%, rgba(0,0,0,1) 25%, rgba(245,234,184,1) 50%, rgba(12,12,9,1) 75%, rgba(255,244,192,1) 100%);
+}
